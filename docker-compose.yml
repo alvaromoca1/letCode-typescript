@@ -5,7 +5,7 @@ services:
     working_dir: /app
     command: "npm run build:watch"
     networks: 
-      - laboratorio-local
+      - laboratorio-local-letcode
     volumes:
       - ./app:/app
       - $HOME/.aws:/home/node/.aws
@@ -15,4 +15,4 @@ services:
 
 networks:
   laboratorio-local:
-    name: laboratorio-local
+    name: laboratorio-local-letcode

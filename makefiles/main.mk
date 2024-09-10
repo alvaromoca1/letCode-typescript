@@ -1,4 +1,4 @@
 SHELL = /bin/bash
 
-MODULE      = laboratori-makefile
+MODULE      = laboratori-letcode
 ENVIRONMENT = dev
